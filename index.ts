@@ -8,7 +8,7 @@ const app: Express = express();
 const port = process.env.PORT;
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Express + TypeScript Server test');
+  res.send('Express + TypeScript Server test new test 2');
 });
 
 app.use('/api/', routes);
